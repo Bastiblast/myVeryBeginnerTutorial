@@ -5,7 +5,10 @@ export default function Index() {
   return (<>
     <div>Index</div>
     <div style={{ whiteSpace: 'pre' }}>
+      <blockquote  className="font-semibold text-gray-900 dark:text-white text-xl italic">
+
         {htmlTemplate}
+      </blockquote>
     </div>
     </>
   )
